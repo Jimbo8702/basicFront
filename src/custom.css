@@ -1,0 +1,21 @@
+.body {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.customNav {
+  height: 100px;
+  background: black;
+}
+
+.main {
+  height: 100%;
+  background-color: white;
+}
+.navTitle {
+  font-size: 20px;
+}
+#hero {
+  border-bottom: solid 5px blue;
+}
