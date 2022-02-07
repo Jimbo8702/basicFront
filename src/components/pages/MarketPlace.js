@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function services() {
+export default function MarketPlace() {
   return <div>hello services</div>;
 }

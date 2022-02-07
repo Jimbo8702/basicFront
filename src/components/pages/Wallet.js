@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Account() {
+export default function Wallet() {
   return <div>hello account</div>;
 }

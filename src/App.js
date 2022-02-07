@@ -1,9 +1,9 @@
 import React from "react";
-import Account from "./components/pages/Account";
+import Wallet from "./components/pages/Wallet";
 import Landing from "./components/pages/Landing";
-import Team from "./components/pages/Team";
-import About from "./components/pages/About";
-import Services from "./components/pages/Services";
+import Upload from "./components/pages/Upload";
+import Signup from "./components/pages/Signup";
+import MarketPlace from "./components/pages/MarketPlace";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
@@ -16,10 +16,10 @@ export default function WebsiteContainer() {
         <Nav />
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Team" element={<Team />} />
-          <Route path="/Account" element={<Account />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/Wallet" element={<Wallet />} />
+          <Route path="/Signup" element={<Signup />} />
+          <Route path="/Upload" element={<Upload />} />
+          <Route path="/Marketplace" element={<MarketPlace />} />
         </Routes>
         <Footer />
       </BrowserRouter>
